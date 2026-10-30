@@ -40,10 +40,12 @@ namespace Calculs
                 }
 
                 // 5. Traitement de l'Addition (choix == 1)
+
+                val1 = rand.Next(1, 10);
+                val2 = rand.Next(1, 10); 
                 if (choix == 1)
                 {
-                    val1 = rand.Next(1, 10);
-                    val2 = rand.Next(1, 10);
+                    
 
                     Console.Write(val1 + " + " + val2 + " = ");
 
@@ -68,8 +70,7 @@ namespace Calculs
                 // 6. Traitement de la Multiplication (choix == 2)
                 else if (choix == 2)
                 {
-                    val1 = rand.Next(1, 10);
-                    val2 = rand.Next(1, 10);
+                   
 
                     Console.Write(val1 + " x " + val2 + " = ");
 
