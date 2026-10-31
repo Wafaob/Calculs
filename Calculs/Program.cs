@@ -28,7 +28,7 @@ namespace Calculs
                 // 3. Gestion de la sortie (Quitter)
                 if (choix == 0)
                 {
-                    Console.WriteLine("Au revoir !");
+                    Console.WriteLine("Fin du programme !");
                     break; // Quitte la boucle et arrête le programme proprement
                 }
 
